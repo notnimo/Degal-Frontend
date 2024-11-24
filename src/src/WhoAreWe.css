@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Good Times";
+  src: url("good_times.otf");
+}
+#WhoAreWe {
+  color: white;
+  font-family: "Good Times";
+  text-align: center;
+  width: 450px;
+}/*# sourceMappingURL=WhoAreWe.css.map */
