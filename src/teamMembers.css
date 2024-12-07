@@ -5,34 +5,40 @@
 #teamMembersPage-wrap {
   background-color: #000;
   font-family: "Good Times";
-  display: inline;
+  display: flex;
+  justify-content: space-around; /*Space evenly between the divs*/
+  align-items: flex-start; /*Align items at the top*/
+  gap: 20px; /*Gap between divs*/
+  margin: 20px;
+}
+#teamMembersPage-wrap .single-team-member-andHeader {
+  font-family: inherit;
+  padding: 10px;
+  border-radius: 10%;
+}
+#teamMembersPage-wrap .single-team-member-andHeader h1 {
+  font-size: 1.2rem;
   color: #1b72b8;
-}
-#teamMembersPage-wrap h1 {
   font-family: inherit;
-  display: inline;
-  text-wrap: nowrap;
-  overflow: hidden;
 }
-#teamMembersPage-wrap #team-members-wrap {
-  font-family: inherit;
-  display: inherit;
-}
-#teamMembersPage-wrap #team-members-wrap .single-team-member {
-  font-family: inherit;
-  display: inherit;
-}
-#teamMembersPage-wrap #team-members-wrap .single-team-member img {
+#teamMembersPage-wrap .single-team-member-andHeader img {
   border-radius: 10%;
   height: 250;
   width: 250;
-  overflow: hidden;
-  flex-wrap: nowrap;
 }
-#teamMembersPage-wrap #team-members-wrap .single-team-member h3 {
+#teamMembersPage-wrap .single-team-member-andHeader h3 {
+  color: #FFF;
   font-family: inherit;
-  display: inline;
+  font-size: 1rem;
+}
+#teamMembersPage-wrap .single-team-member-andHeader h4 {
+  color: #FFF;
+  font-family: inherit;
+  font-size: 0.8rem;
+}
+#teamMembersPage-wrap .single-team-member-andHeader p {
+  color: #FFF;
   overflow: hidden;
   text-wrap: nowrap;
-  font-size: 1rem;
+  font-family: inherit;
 }/*# sourceMappingURL=teamMembers.css.map */

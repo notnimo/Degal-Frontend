@@ -8,35 +8,41 @@ $logo-blue: #1b72b8;
 #teamMembersPage-wrap{
     background-color: #000;
     font-family: 'Good Times';
-    display: inline;
-    color: $logo-blue;
-    h1{
+    display: flex;
+    justify-content: space-around; /*Space evenly between the divs*/
+    align-items: flex-start;       /*Align items at the top*/ 
+    gap: 20px;                     /*Gap between divs*/
+    margin: 20px;                    
+    .single-team-member-andHeader{
         font-family: inherit;
-        display: inline;
-        text-wrap: nowrap;
-        overflow: hidden;
-    }
-    #team-members-wrap{
-        font-family: inherit;
-        display: inherit;
-        .single-team-member{
+        padding: 10px;
+        border-radius: 10%;
+        h1{
+            font-size: 1.2rem;
+            color: #1b72b8;
             font-family: inherit;
-            display: inherit;
-            img{
-                border-radius: 10%;
-                height: 250;
-                width: 250;
-                overflow: hidden;
-                flex-wrap: nowrap;
-            }
-            h3{
-                font-family: inherit;
-                display: inline;
-                overflow: hidden;
-                text-wrap: nowrap;
-                font-size: 1rem;
-            }
-            
+        }
+        img{
+            border-radius: 10%;
+            height: 250;
+            width: 250;
+        }
+        h3{
+            color: #FFF;
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        h4{
+            color: #FFF;
+            font-family: inherit;
+            font-size: 0.8rem;
+        }
+        p{
+            color: #FFF;
+            overflow: hidden;
+            text-wrap: nowrap;
+            font-family: inherit;
+
         }
     }
 }
