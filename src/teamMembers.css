@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Good Times";
+  src: url("good_times.otf");
+}
+#teamMembersPage-wrap {
+  display: inline;
+}
+#teamMembersPage-wrap h1 {
+  font-family: "Good Times";
+  display: inherit;
+}
+#teamMembersPage-wrap #team-members-wrap {
+  display: inherit;
+}
+#teamMembersPage-wrap #team-members-wrap .single-team-member {
+  display: inherit;
+}/*# sourceMappingURL=teamMembers.css.map */

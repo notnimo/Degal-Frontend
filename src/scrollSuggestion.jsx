@@ -6,8 +6,7 @@ import './ScrollSuggestion.css'
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ScrollSuggestion() 
-{
+export default function ScrollSuggestion() {
     useGSAP(() => {
         gsap.to('#scroll', {
             scrollTrigger: {
