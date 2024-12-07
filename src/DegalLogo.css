@@ -3,7 +3,7 @@
     src: url('good_times.otf');
 }
 
-#logo text {
+#degal-frontpage-logo text {
     font-style:normal;
     font-variant:normal;
     font-weight:400;
@@ -26,14 +26,14 @@
     stroke-dasharray:none;
 }
 
-#logo text tspan {
+#degal-frontpage-logo text tspan {
     fill:#000;
     fill-opacity:1;
     stroke-width:0;
     stroke-dasharray:none;
 }
 
-#logo path {
+#degal-frontpage-logo path {
     fill:#1b72b8;
     fill-opacity:1;
     stroke:#000;
@@ -41,7 +41,7 @@
     stroke-dasharray:none;
 }
 
-#logo path.triangle {
+#degal-frontpage-logo path.frontpage-logo-triagle {
     fill:#000;
     fill-opacity:1;
     stroke:#000;
