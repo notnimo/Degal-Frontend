@@ -3,15 +3,36 @@
   src: url("good_times.otf");
 }
 #teamMembersPage-wrap {
+  background-color: #000;
+  font-family: "Good Times";
   display: inline;
+  color: #1b72b8;
 }
 #teamMembersPage-wrap h1 {
-  font-family: "Good Times";
-  display: inherit;
+  font-family: inherit;
+  display: inline;
+  text-wrap: nowrap;
+  overflow: hidden;
 }
 #teamMembersPage-wrap #team-members-wrap {
+  font-family: inherit;
   display: inherit;
 }
 #teamMembersPage-wrap #team-members-wrap .single-team-member {
+  font-family: inherit;
   display: inherit;
+}
+#teamMembersPage-wrap #team-members-wrap .single-team-member img {
+  border-radius: 10%;
+  height: 250;
+  width: 250;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+#teamMembersPage-wrap #team-members-wrap .single-team-member h3 {
+  font-family: inherit;
+  display: inline;
+  overflow: hidden;
+  text-wrap: nowrap;
+  font-size: 1rem;
 }/*# sourceMappingURL=teamMembers.css.map */

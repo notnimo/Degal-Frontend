@@ -1,21 +1,42 @@
+$logo-blue: #1b72b8;
+
 @font-face {
     font-family: 'Good Times';
     src: url('good_times.otf');
 }
 
 #teamMembersPage-wrap{
+    background-color: #000;
+    font-family: 'Good Times';
     display: inline;
+    color: $logo-blue;
     h1{
-        font-family: 'Good Times';
-        display: inherit;
+        font-family: inherit;
+        display: inline;
+        text-wrap: nowrap;
+        overflow: hidden;
     }
     #team-members-wrap{
+        font-family: inherit;
         display: inherit;
         .single-team-member{
-            h3{
-                
-            }
+            font-family: inherit;
             display: inherit;
+            img{
+                border-radius: 10%;
+                height: 250;
+                width: 250;
+                overflow: hidden;
+                flex-wrap: nowrap;
+            }
+            h3{
+                font-family: inherit;
+                display: inline;
+                overflow: hidden;
+                text-wrap: nowrap;
+                font-size: 1rem;
+            }
+            
         }
     }
 }
