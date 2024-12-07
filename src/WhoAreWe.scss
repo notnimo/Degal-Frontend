@@ -4,12 +4,12 @@ $logo-blue: #1b72b8;
     font-family: 'Good Times';
     src: url('good_times.otf');
 }
-#WhoAreWe-wrap {
+#whoAreWePage-wrap {
     width: 100%;
     height: 5000px;
 }
 
-#WhoAreWe {
+#whoAreWePage-content {
     color: white;
     font-family: 'Good Times';
     text-align: center;
@@ -23,7 +23,7 @@ $logo-blue: #1b72b8;
                      0 0 40px $logo-blue, 
                      0 0 50px $logo-blue;
     }
-    .decorations{ 
+    .circular-whoAreWePage-decorations{ 
         width: 100%;
         height: 100%;
         div {
