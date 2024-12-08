@@ -33,7 +33,7 @@ export default function TeamMembers(){
             <div className="single-team-member-andHeader">
                 <img href="https://via.placeholder.com/150" alt="placeholder" />
                 <h3>LEONARDO ZUCCHINI</h3>
-                <h4>Manufactoring Engineer</h4>
+                <h4>Manufacturing Engineer</h4>
                 <p></p>
             </div>
             <div className="single-team-member-andHeader">
