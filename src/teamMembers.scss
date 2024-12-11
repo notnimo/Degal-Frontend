@@ -1,48 +1,99 @@
 $logo-blue: #1b72b8;
+$div-border-color: #010023;
+$div-fill-color: #090526;
+$div-fill-color-over: #000;
+$h3-color: $logo-blue;
+$h4-color: lighten($logo-blue, 20%);
+$p-color: lighten($logo-blue, 35%);
 
 @font-face {
-    font-family: 'Good Times';
-    src: url('good_times.otf');
+	font-family: "Good Times";
+	src: url("good_times.otf");
 }
 
-#teamMembersPage-wrap{
-    background-color: #000;
-    font-family: 'Good Times';
-    display: flex;
-    justify-content: space-around; /*Space evenly between the divs*/
-    align-items: flex-start;       /*Align items at the top*/ 
-    gap: 20px;                     /*Gap between divs*/
-    margin: 20px;                    
-    .single-team-member-andHeader{
-        font-family: inherit;
-        padding: 10px;
-        border-radius: 10%;
-        h1{
-            font-size: 1.2rem;
-            color: #1b72b8;
-            font-family: inherit;
-        }
-        img{
-            border-radius: 10%;
-            height: 250;
-            width: 250;
-        }
-        h3{
-            color: #FFF;
-            font-family: inherit;
-            font-size: 1rem;
-        }
-        h4{
-            color: #FFF;
-            font-family: inherit;
-            font-size: 0.8rem;
-        }
-        p{
-            color: #FFF;
-            overflow: hidden;
-            text-wrap: nowrap;
-            font-family: inherit;
-
-        }
-    }
+#teamMembersPage-wrap {
+	font-family: "Good Times";
+	background-color: black;
+	display: flex;
+	justify-content: space-around; /*Space evenly between the divs*/
+	align-items: center;
+	gap: 20px; /*Gap between divs*/
+	margin: 20px;
+	.single-team-member-andHeader {
+		font-family: inherit;
+		padding: 10px;
+		min-width: 400px;
+		min-height: 500px;
+		text-align: center;
+		border: 2px solid $div-border-color;
+		background-color: $div-fill-color;
+		border-radius: 10%;
+		h1 {
+			font-size: 1.2rem;
+			color: #fff;
+			font-family: inherit;
+			min-width: 400px;
+		}
+		img {
+			border-radius: 10%;
+			height: 250;
+			width: 250;
+		}
+		h3 {
+			color: $h3-color;
+			font-family: inherit;
+			font-size: 1rem;
+		}
+		h4 {
+			color: $h4-color;
+			font-family: inherit;
+			font-size: 0.8rem;
+		}
+		p {
+			color: $p-color;
+			font-size: 0.7rem;
+			text-align: left;
+			overflow: hidden;
+			text-wrap: nowrap;
+			font-family: inherit;
+		}
+		.single-team-member-andHeader:hover {
+			font-family: inherit;
+			padding: 10px;
+			min-width: 400px;
+			min-height: 500px;
+			text-align: center;
+			border: 2px solid $div-border-color;
+			background-color: $div-fill-color-over;
+			border-radius: 10%;
+			h1 {
+				font-size: 1.2rem;
+				color: #fff;
+				font-family: inherit;
+				min-width: 400px;
+			}
+			img {
+				border-radius: 10%;
+				height: 250;
+				width: 250;
+			}
+			h3 {
+				color: #fff;
+				font-family: inherit;
+				font-size: 1rem;
+			}
+			h4 {
+				color: #fff;
+				font-family: inherit;
+				font-size: 0.8rem;
+			}
+			p {
+				color: #fff;
+				text-align: left;
+				overflow: hidden;
+				text-wrap: nowrap;
+				font-family: inherit;
+			}
+		}
+	}
 }
