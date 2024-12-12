@@ -10,7 +10,9 @@ export default function TeamMembers() {
 	return (
 		<div id="teamMembersPage-wrap">
 			<div className="single-team-member-andheader">
-				<h1>TEAM MEMBERS</h1>
+				<h1 style={{ minWidth: "375px", color: "#1b72b8s" }}>
+					TEAM MEMBERS
+				</h1>
 			</div>
 			<div className="single-team-member-andHeader">
 				<img href="https://via.placeholder.com/150" alt="placeholder" />

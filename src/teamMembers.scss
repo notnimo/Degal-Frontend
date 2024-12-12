@@ -1,10 +1,14 @@
 $logo-blue: #1b72b8;
 $div-border-color: #010023;
 $div-fill-color: #090526;
-$div-fill-color-over: #000;
-$h3-color: $logo-blue;
+$h3-color: lighten($logo-blue, 35%);
 $h4-color: lighten($logo-blue, 20%);
-$p-color: lighten($logo-blue, 35%);
+$p-color: $logo-blue;
+$div-border-color-over: $div-fill-color;
+$div-fill-color-over: $p-color;
+$h3-color-over: lighten($logo-blue, 50%);
+$h4-color-over: $h3-color;
+$p-color-over: $h4-color;
 
 @font-face {
 	font-family: "Good Times";
@@ -14,9 +18,9 @@ $p-color: lighten($logo-blue, 35%);
 #teamMembersPage-wrap {
 	font-family: "Good Times";
 	background-color: black;
+	align-items: center;
 	display: flex;
 	justify-content: space-around; /*Space evenly between the divs*/
-	align-items: center;
 	gap: 20px; /*Gap between divs*/
 	margin: 20px;
 	.single-team-member-andHeader {
@@ -30,9 +34,7 @@ $p-color: lighten($logo-blue, 35%);
 		border-radius: 10%;
 		h1 {
 			font-size: 1.2rem;
-			color: #fff;
 			font-family: inherit;
-			min-width: 400px;
 		}
 		img {
 			border-radius: 10%;
@@ -57,43 +59,43 @@ $p-color: lighten($logo-blue, 35%);
 			text-wrap: nowrap;
 			font-family: inherit;
 		}
-		.single-team-member-andHeader:hover {
+	}
+	.single-team-member-andHeader:hover {
+		font-family: inherit;
+		padding: 10px;
+		min-width: 400px;
+		min-height: 500px;
+		text-align: center;
+		transition: 0.5s;
+		border: 2px solid $div-border-color-over;
+		background-color: $div-fill-color-over;
+		border-radius: 10%;
+		h1 {
+			font-size: 1.2rem;
 			font-family: inherit;
-			padding: 10px;
-			min-width: 400px;
-			min-height: 500px;
-			text-align: center;
-			border: 2px solid $div-border-color;
-			background-color: $div-fill-color-over;
+		}
+		img {
 			border-radius: 10%;
-			h1 {
-				font-size: 1.2rem;
-				color: #fff;
-				font-family: inherit;
-				min-width: 400px;
-			}
-			img {
-				border-radius: 10%;
-				height: 250;
-				width: 250;
-			}
-			h3 {
-				color: #fff;
-				font-family: inherit;
-				font-size: 1rem;
-			}
-			h4 {
-				color: #fff;
-				font-family: inherit;
-				font-size: 0.8rem;
-			}
-			p {
-				color: #fff;
-				text-align: left;
-				overflow: hidden;
-				text-wrap: nowrap;
-				font-family: inherit;
-			}
+			height: 250;
+			width: 250;
+		}
+		h3 {
+			color: $h3-color-over;
+			font-family: inherit;
+			font-size: 1rem;
+		}
+		h4 {
+			color: $h4-color-over;
+			font-family: inherit;
+			font-size: 0.8rem;
+		}
+		p {
+			color: $p-color-over;
+			font-size: 0.7rem;
+			text-align: left;
+			overflow: hidden;
+			text-wrap: nowrap;
+			font-family: inherit;
 		}
 	}
 }

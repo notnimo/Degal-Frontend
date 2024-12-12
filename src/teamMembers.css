@@ -5,9 +5,9 @@
 #teamMembersPage-wrap {
   font-family: "Good Times";
   background-color: black;
+  align-items: center;
   display: flex;
   justify-content: space-around; /*Space evenly between the divs*/
-  align-items: center;
   gap: 20px; /*Gap between divs*/
   margin: 20px;
 }
@@ -23,9 +23,7 @@
 }
 #teamMembersPage-wrap .single-team-member-andHeader h1 {
   font-size: 1.2rem;
-  color: #fff;
   font-family: inherit;
-  min-width: 400px;
 }
 #teamMembersPage-wrap .single-team-member-andHeader img {
   border-radius: 10%;
@@ -33,7 +31,7 @@
   width: 250;
 }
 #teamMembersPage-wrap .single-team-member-andHeader h3 {
-  color: #1b72b8;
+  color: #96c8f0;
   font-family: inherit;
   font-size: 1rem;
 }
@@ -43,46 +41,46 @@
   font-size: 0.8rem;
 }
 #teamMembersPage-wrap .single-team-member-andHeader p {
-  color: #96c8f0;
+  color: #1b72b8;
   font-size: 0.7rem;
   text-align: left;
   overflow: hidden;
   text-wrap: nowrap;
   font-family: inherit;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .single-team-member-andHeader:hover {
+#teamMembersPage-wrap .single-team-member-andHeader:hover {
   font-family: inherit;
   padding: 10px;
   min-width: 400px;
   min-height: 500px;
   text-align: center;
-  border: 2px solid #010023;
-  background-color: #000;
+  transition: 0.5s;
+  border: 2px solid #090526;
+  background-color: #1b72b8;
   border-radius: 10%;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .single-team-member-andHeader:hover h1 {
+#teamMembersPage-wrap .single-team-member-andHeader:hover h1 {
   font-size: 1.2rem;
-  color: #fff;
   font-family: inherit;
-  min-width: 400px;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .single-team-member-andHeader:hover img {
+#teamMembersPage-wrap .single-team-member-andHeader:hover img {
   border-radius: 10%;
   height: 250;
   width: 250;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .single-team-member-andHeader:hover h3 {
-  color: #fff;
+#teamMembersPage-wrap .single-team-member-andHeader:hover h3 {
+  color: #d9ebf9;
   font-family: inherit;
   font-size: 1rem;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .single-team-member-andHeader:hover h4 {
-  color: #fff;
+#teamMembersPage-wrap .single-team-member-andHeader:hover h4 {
+  color: #96c8f0;
   font-family: inherit;
   font-size: 0.8rem;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .single-team-member-andHeader:hover p {
-  color: #fff;
+#teamMembersPage-wrap .single-team-member-andHeader:hover p {
+  color: #53a4e6;
+  font-size: 0.7rem;
   text-align: left;
   overflow: hidden;
   text-wrap: nowrap;
