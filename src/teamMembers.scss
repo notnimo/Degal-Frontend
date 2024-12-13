@@ -1,14 +1,13 @@
 $logo-blue: #1b72b8;
-$div-border-color: #010023;
-$div-fill-color: #090526;
+$div-fill-color: #090526 3;
 $h3-color: lighten($logo-blue, 35%);
 $h4-color: lighten($logo-blue, 20%);
 $p-color: $logo-blue;
-$div-border-color-over: $div-fill-color;
+$wallpaper-color: darken($logo-blue, 70%);
 $div-fill-color-over: $p-color;
 $h3-color-over: lighten($logo-blue, 50%);
 $h4-color-over: $h3-color;
-$p-color-over: $h4-color;
+$p-color-over: $h4-color-over;
 
 @font-face {
 	font-family: "Good Times";
@@ -17,11 +16,11 @@ $p-color-over: $h4-color;
 
 #teamMembersPage-wrap {
 	font-family: "Good Times";
-	background-color: black;
+	background-color: $wallpaper-color;
 	align-items: center;
 	display: flex;
 	justify-content: space-around; /*Space evenly between the divs*/
-	gap: 20px; /*Gap between divs*/
+	gap: 40px; /*Gap between divs*/
 	margin: 20px;
 	.single-team-member-andHeader {
 		font-family: inherit;
@@ -29,11 +28,11 @@ $p-color-over: $h4-color;
 		min-width: 400px;
 		min-height: 500px;
 		text-align: center;
-		border: 2px solid $div-border-color;
 		background-color: $div-fill-color;
 		border-radius: 10%;
 		h1 {
 			font-size: 1.2rem;
+			color: #fff;
 			font-family: inherit;
 		}
 		img {
@@ -67,7 +66,7 @@ $p-color-over: $h4-color;
 		min-height: 500px;
 		text-align: center;
 		transition: 0.5s;
-		border: 2px solid $div-border-color-over;
+		box-shadow: -10px 10px 5px lighten($div-fill-color-over, 40%);
 		background-color: $div-fill-color-over;
 		border-radius: 10%;
 		h1 {

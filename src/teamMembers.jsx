@@ -10,7 +10,7 @@ export default function TeamMembers() {
 	return (
 		<div id="teamMembersPage-wrap">
 			<div className="single-team-member-andheader">
-				<h1 style={{ minWidth: "375px", color: "#1b72b8s" }}>
+				<h1 style={{ minWidth: "375px"}}>
 					TEAM MEMBERS
 				</h1>
 			</div>
