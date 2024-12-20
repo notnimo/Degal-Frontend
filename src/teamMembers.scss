@@ -3,7 +3,7 @@ $div-fill-color: #090526 3;
 $h3-color: lighten($logo-blue, 35%);
 $h4-color: lighten($logo-blue, 20%);
 $p-color: $logo-blue;
-$wallpaper-color: darken($logo-blue, 70%);
+$wallpaper-color: #000;
 $div-fill-color-over: $p-color;
 $h3-color-over: lighten($logo-blue, 50%);
 $h4-color-over: $h3-color;
@@ -66,12 +66,13 @@ $p-color-over: $h4-color-over;
 		min-height: 500px;
 		text-align: center;
 		transition: 0.5s;
-		box-shadow: -10px 10px 5px lighten($div-fill-color-over, 40%);
+		box-shadow: -10px 10px 5px #1c2836;
 		background-color: $div-fill-color-over;
 		border-radius: 10%;
 		h1 {
 			font-size: 1.2rem;
 			font-family: inherit;
+			color: #fff;
 		}
 		img {
 			border-radius: 10%;

@@ -4,7 +4,7 @@
 }
 #teamMembersPage-wrap {
   font-family: "Good Times";
-  background-color: black;
+  background-color: #000;
   align-items: center;
   display: flex;
   justify-content: space-around; /*Space evenly between the divs*/
@@ -55,13 +55,14 @@
   min-height: 500px;
   text-align: center;
   transition: 0.5s;
-  box-shadow: -10px 10px 5px #acd3f3;
+  box-shadow: -10px 10px 5px #1c2836;
   background-color: #1b72b8;
   border-radius: 10%;
 }
 #teamMembersPage-wrap .single-team-member-andHeader:hover h1 {
   font-size: 1.2rem;
   font-family: inherit;
+  color: #fff;
 }
 #teamMembersPage-wrap .single-team-member-andHeader:hover img {
   border-radius: 10%;
