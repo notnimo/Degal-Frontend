@@ -1,18 +1,26 @@
+$logo-blue: #1b72b8;
+$wallpaper-color: #000;
+
 @font-face {
-    font-family: 'Good Times';
-    src: url('good_times.otf');
+	font-family: "Good Times";
+	src: url("good_times.otf");
 }
 
-#sponsorPage-wrap{
-    #sponsors-wrap{
-        #macron-sponsor{
-
-        }
-        #cosmo3d-sponsor{
-
-        }
-        #infDelBorgo-sponsor{
-
-        }
-    }
+#sponsorPage-wrap {
+	background-color: $wallpaper-color;
+	display: flex;
+	justify-content: space-around; /*Space evenly between the divs*/
+	gap: 60px; /*Gap between divs*/
+	align-items: center;
+	#sponsors-wrap {
+		.single-sponsor-wrap {
+			border-radius: 12px;
+			.sponsor-logo {
+			}
+			.contact-info-wrap {
+				.contact-info-single-logo {
+				}
+			}
+		}
+	}
 }

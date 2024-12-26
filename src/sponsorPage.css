@@ -1,4 +1,14 @@
 @font-face {
   font-family: "Good Times";
   src: url("good_times.otf");
+}
+#sponsorPage-wrap {
+  background-color: #000;
+  display: flex;
+  justify-content: space-around; /*Space evenly between the divs*/
+  gap: 60px; /*Gap between divs*/
+  align-items: center;
+}
+#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap {
+  border-radius: 12px;
 }/*# sourceMappingURL=sponsorPage.css.map */
