@@ -10,7 +10,7 @@ export default function TeamMembers() {
 	return (
 		<div id="teamMembersPage-wrap">
 			<div className="single-team-member-andheader">
-				<h1 style={{ minWidth: "375px"}}>
+				<h1 style={{ minWidth: "375px", color: "white" }}>
 					TEAM MEMBERS
 				</h1>
 			</div>
@@ -24,12 +24,6 @@ export default function TeamMembers() {
 				<img href="https://via.placeholder.com/150" alt="placeholder" />
 				<h3>DAMIANO LIVONI</h3>
 				<h4>Design Engineer</h4>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div className="single-team-member-andHeader">
 				<img href="https://via.placeholder.com/150" alt="placeholder" />
