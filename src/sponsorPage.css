@@ -18,17 +18,22 @@
   height: 600px;
   border-radius: 12px;
 }
+#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap img {
+  border-radius: inherit;
+  height: 300px;
+  width: 300px;
+}
 #sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .sponsor-logo {
   border-radius: inherit;
 }
 #sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap #macron-logo-wrap {
-  background-color: #fff;
-  height: 300px;
-  width: 300px;
+  background-color: white;
 }
 #sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .contact-info-wrap {
   border-radius: inherit;
 }
 #sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .contact-info-wrap .contact-info-single-logo {
   border-radius: inherit;
+  height: 50px;
+  width: 50px;
 }/*# sourceMappingURL=sponsorPage.css.map */

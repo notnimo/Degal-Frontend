@@ -14,24 +14,29 @@ $square-side: 600px;
 	#sponsors-wrap {
 		display: flex;
 		justify-content: space-around; /*da cambiare per non far hittare il bordo, guarda chat gpt*/
-		gap: 60px; 
+		gap: 60px;
 		align-items: center;
 		.single-sponsor-wrap {
 			width: $square-side;
 			height: $square-side;
 			border-radius: 12px;
+			img {
+				border-radius: inherit;
+				height: 300px;
+				width: 300px;
+			}
 			.sponsor-logo {
 				border-radius: inherit;
 			}
 			#macron-logo-wrap {
-				background-color: #fff;
-				height: 300px;
-				width: 300px;
+				background-color: white;
 			}
 			.contact-info-wrap {
 				border-radius: inherit;
 				.contact-info-single-logo {
 					border-radius: inherit;
+					height: 50px;
+					width: 50px;
 				}
 			}
 		}
