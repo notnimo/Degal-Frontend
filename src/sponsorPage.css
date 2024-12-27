@@ -3,12 +3,32 @@
   src: url("good_times.otf");
 }
 #sponsorPage-wrap {
+  font-family: "Good Times";
   background-color: #000;
+  text-align: center;
+}
+#sponsorPage-wrap #sponsors-wrap {
   display: flex;
-  justify-content: space-around; /*Space evenly between the divs*/
-  gap: 60px; /*Gap between divs*/
+  justify-content: space-around; /*da cambiare per non far hittare il bordo, guarda chat gpt*/
+  gap: 60px;
   align-items: center;
 }
 #sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap {
+  width: 600px;
+  height: 600px;
   border-radius: 12px;
+}
+#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .sponsor-logo {
+  border-radius: inherit;
+}
+#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap #macron-logo-wrap {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+}
+#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .contact-info-wrap {
+  border-radius: inherit;
+}
+#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .contact-info-wrap .contact-info-single-logo {
+  border-radius: inherit;
 }/*# sourceMappingURL=sponsorPage.css.map */

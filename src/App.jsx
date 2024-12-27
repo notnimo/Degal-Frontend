@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import DegalLogo from "./DegalLogo";
 import ScrollSuggestion from "./scrollSuggestion";
 import WhoAreWe from "./WhoAreWe";
-import sponsorDisplay from "./sponsorPage";
+import SponsorDisplay from "./sponsorPage";
 import TeamMembers from "./teamMembers";
 import "./App.css";
 

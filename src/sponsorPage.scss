@@ -1,5 +1,6 @@
 $logo-blue: #1b72b8;
 $wallpaper-color: #000;
+$square-side: 600px;
 
 @font-face {
 	font-family: "Good Times";
@@ -7,18 +8,30 @@ $wallpaper-color: #000;
 }
 
 #sponsorPage-wrap {
+	font-family: "Good Times";
 	background-color: $wallpaper-color;
-	display: flex;
-	justify-content: space-around; /*Space evenly between the divs*/
-	gap: 60px; /*Gap between divs*/
-	align-items: center;
+	text-align: center;
 	#sponsors-wrap {
+		display: flex;
+		justify-content: space-around; /*da cambiare per non far hittare il bordo, guarda chat gpt*/
+		gap: 60px; 
+		align-items: center;
 		.single-sponsor-wrap {
+			width: $square-side;
+			height: $square-side;
 			border-radius: 12px;
 			.sponsor-logo {
+				border-radius: inherit;
+			}
+			#macron-logo-wrap {
+				background-color: #fff;
+				height: 300px;
+				width: 300px;
 			}
 			.contact-info-wrap {
+				border-radius: inherit;
 				.contact-info-single-logo {
+					border-radius: inherit;
 				}
 			}
 		}
