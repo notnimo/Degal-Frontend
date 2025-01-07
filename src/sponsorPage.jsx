@@ -17,54 +17,63 @@ gsap.registerPlugin(ScrollTrigger);
 export default function SponsorDisplay() {
 	return (
 		<div id="sponsorPage-wrap">
-			<h1 style={{ minWidth: "375px", color: "white" }}>OUR SPONSORS</h1>
+			<h1 style={{ minWidth: "375px", color: "white" }}>OUR SPONSOR</h1>
 			<div id="sponsors-wrap">
 				<div className="single-sponsor-wrap">
 					<a href="https://www.macron.com">
-						<div id="macron-logo-wrap">
-							<img
-								className="sponsor-logo"
-								src={macron_logo}
-								alt="macron logo"
-							/>
-						</div>
+						<img
+							className="sponsor-logo"
+							src={macron_logo}
+							alt="macron logo"
+						/>
 					</a>
 					<div className="contact-info-wrap">
-						<a href="https://www.instagram.com/macron/">
-							<img
-								className="contact-info-single-logo"
-								src={instagram_icon}
-								alt="instagram macron info"
-							/>
-						</a>
-						<a href="https://x.com/macronsports">
-							<img
-								className="contact-info-single-logo"
-								src={x_icon}
-								alt="x macron info"
-							/>
-						</a>
-						<a href="https://www.facebook.com/macronsports/">
-							<img
-								className="contact-info-single-logo"
-								src={facebook_icon}
-								alt="facebook macron info"
-							/>
-						</a>
-						<a href="https://clubshop.macron.com/torino">
-							<img
-								className="contact-info-single-logo"
-								src={web_icon}
-								alt="local macron site"
-							/>
-						</a>
-						<a href="https://www.instagram.com/macronsportshubtorino/">
-							<img
-								className="contact-info-single-logo"
-								src={instagram_icon}
-								alt="local macron instagram info"
-							/>
-						</a>
+						<div className="contact-info-single-logo">
+							<a href="https://www.instagram.com/macron/">
+								<img
+									src={instagram_icon}
+									alt="instagram macron info"
+								/>
+							</a>
+						</div>
+						<div className="contact-info-single-logo">
+							<a href="https://x.com/macronsports">
+								<img src={x_icon} alt="x macron info" />
+							</a>
+						</div>
+						<div className="contact-info-single-logo">
+							<a href="https://www.facebook.com/macronsports/">
+								<img
+									src={facebook_icon}
+									alt="facebook macron info"
+								/>
+							</a>
+						</div>
+						<div className="contact-info-single-logo">
+							<a href="https://clubshop.macron.com/torino">
+								<div
+									style={{
+										backgroundColor: "#fff",
+										height: "50px",
+										width: "50px",
+										borderRadius: "20%",
+									}}
+								>
+									<img
+										src={web_icon}
+										alt="local macron site"
+									/>
+								</div>
+							</a>
+						</div>
+						<div className="contact-info-single-logo">
+							<a href="https://www.instagram.com/macronsportshubtorino/">
+								<img
+									src={instagram_icon}
+									alt="local macron instagram info"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 				<div className="single-sponsor-wrap">
@@ -73,16 +82,18 @@ export default function SponsorDisplay() {
 							className="sponsor-logo"
 							src={cosmo3d_logo}
 							alt="cosmo3d logo"
+							style={{ width: "auto" }}
 						/>
 					</a>
 					<div className="contact-info-wrap">
-						<a href="https://www.facebook.com/cosmo3d">
-							<img
-								className="contact-info-single-logo"
-								src={facebook_icon}
-								alt="facebook cosmo3d info"
-							/>
-						</a>
+						<div className="contact-info-single-logo">
+							<a href="https://www.facebook.com/cosmo3d">
+								<img
+									src={facebook_icon}
+									alt="facebook cosmo3d info"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 				<div className="single-sponsor-wrap">
@@ -92,20 +103,24 @@ export default function SponsorDisplay() {
 						alt="infDelBorgo logo"
 					/>
 					<div className="contact-info-wrap">
-						<a href="https://www.facebook.com/p/Infermieri-nel-Borgo-100057531005763">
-							<img
-								className="contact-info-single-logo"
-								src={facebook_icon}
-								alt="facebook infDelBorgo info"
-							/>
-						</a>
-						<a href="https://it.linkedin.com/in/infermieri-nel-borgo-studio-associato-a38468156">
-							<img
-								className="contact-info-single-logo"
-								src={linkedin_icon}
-								alt="linkedin infDelBorgo info"
-							/>
-						</a>
+						<div className="contact-info-single-logo">
+							<a href="https://www.facebook.com/p/Infermieri-nel-Borgo-100057531005763">
+								<img
+									className="contact-info-single-logo"
+									src={facebook_icon}
+									alt="facebook infDelBorgo info"
+								/>
+							</a>
+						</div>
+						<div className="contact-info-single-logo">
+							<a href="https://it.linkedin.com/in/infermieri-nel-borgo-studio-associato-a38468156">
+								<img
+									className="contact-info-single-logo"
+									src={linkedin_icon}
+									alt="linkedin infDelBorgo info"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -13,26 +13,28 @@ $square-side: 600px;
 	text-align: center;
 	#sponsors-wrap {
 		display: flex;
-		justify-content: space-around; /*da cambiare per non far hittare il bordo, guarda chat gpt*/
+		justify-content: space-around;
 		gap: 60px;
 		align-items: center;
 		.single-sponsor-wrap {
 			width: $square-side;
 			height: $square-side;
 			border-radius: 12px;
-			img {
-				border-radius: inherit;
-				height: 300px;
-				width: 300px;
-			}
+			display: flex;
+			justify-content: space-around;
 			.sponsor-logo {
+				img {
+					border-radius: inherit;
+					height: 300px; /*si e' incasinato un po ma è giusto DA AGGIUSTARE*/
+					width: 300px;
+				}
 				border-radius: inherit;
-			}
-			#macron-logo-wrap {
-				background-color: white;
 			}
 			.contact-info-wrap {
+				display: flex;
+				justify-content: space-around;
 				border-radius: inherit;
+				align-items: center;
 				.contact-info-single-logo {
 					border-radius: inherit;
 					height: 50px;
