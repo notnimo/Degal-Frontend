@@ -20,14 +20,19 @@ export default function SponsorDisplay() {
 			<h1 style={{ minWidth: "375px", color: "white" }}>OUR SPONSOR</h1>
 			<div id="sponsors-wrap">
 				<div className="single-sponsor-wrap">
-					<a href="https://www.macron.com">
-						<img
-							className="sponsor-logo"
-							src={macron_logo}
-							alt="macron logo"
-						/>
-					</a>
-					<div className="contact-info-wrap">
+					<div>
+						<a href="https://www.macron.com">
+							<img
+								id="macron-sponsor-logo"
+								src={macron_logo}
+								alt="macron logo"
+							/>
+						</a>
+					</div>
+					<div
+						className="contact-info-wrap"
+						style={{ width: "300px" }}
+					>
 						<div className="contact-info-single-logo">
 							<a href="https://www.instagram.com/macron/">
 								<img
@@ -77,14 +82,16 @@ export default function SponsorDisplay() {
 					</div>
 				</div>
 				<div className="single-sponsor-wrap">
-					<a href="http://www.cosmo3d.it/">
-						<img
-							className="sponsor-logo"
-							src={cosmo3d_logo}
-							alt="cosmo3d logo"
-							style={{ width: "auto" }}
-						/>
-					</a>
+					<div>
+						<a href="http://www.cosmo3d.it/">
+							<img
+								id="cosmo3d-sponsor-logo"
+								src={cosmo3d_logo}
+								alt="cosmo3d logo"
+								style={{ width: "auto" }}
+							/>
+						</a>
+					</div>
 					<div className="contact-info-wrap">
 						<div className="contact-info-single-logo">
 							<a href="https://www.facebook.com/cosmo3d">
@@ -97,12 +104,17 @@ export default function SponsorDisplay() {
 					</div>
 				</div>
 				<div className="single-sponsor-wrap">
-					<img
-						className="sponsor-logo"
-						src={infDelBorgo}
-						alt="infDelBorgo logo"
-					/>
-					<div className="contact-info-wrap">
+					<div>
+						<img
+							id="infDelBorgo-sponsor-logo"
+							src={infDelBorgo}
+							alt="infDelBorgo logo"
+						/>
+					</div>
+					<div
+						className="contact-info-wrap"
+						style={{ width: "105px" }}
+					>
 						<div className="contact-info-single-logo">
 							<a href="https://www.facebook.com/p/Infermieri-nel-Borgo-100057531005763">
 								<img

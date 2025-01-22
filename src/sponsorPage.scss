@@ -20,25 +20,33 @@ $square-side: 600px;
 			width: $square-side;
 			height: $square-side;
 			border-radius: 12px;
-			display: flex;
-			justify-content: space-around;
-			.sponsor-logo {
-				img {
-					border-radius: inherit;
-					height: 300px; /*si e' incasinato un po ma è giusto DA AGGIUSTARE*/
-					width: 300px;
-				}
+			#macron-sponsor-logo {
 				border-radius: inherit;
+				height: 300px;
+				width: 300px;
+			}
+			#cosmo3d-sponsor-logo {
+				border-radius: inherit;
+				height: 300px;
+			}
+			#infDelBorgo-sponsor-logo {
+				border-radius: inherit;
+				height: 300px;
+				width: 300px;
 			}
 			.contact-info-wrap {
 				display: flex;
 				justify-content: space-around;
 				border-radius: inherit;
 				align-items: center;
+				// trovare modo per centrare i loghi
+				gap: 5px;
 				.contact-info-single-logo {
-					border-radius: inherit;
-					height: 50px;
-					width: 50px;
+					img {
+						border-radius: inherit;
+						height: 50px;
+						width: 50px;
+					}
 				}
 			}
 		}
