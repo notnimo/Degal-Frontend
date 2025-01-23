@@ -14,6 +14,10 @@
   align-items: center;
 }
 #sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: 600px;
   height: 600px;
   border-radius: 12px;

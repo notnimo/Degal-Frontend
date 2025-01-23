@@ -17,6 +17,10 @@ $square-side: 600px;
 		gap: 60px;
 		align-items: center;
 		.single-sponsor-wrap {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
 			width: $square-side;
 			height: $square-side;
 			border-radius: 12px;
@@ -39,7 +43,6 @@ $square-side: 600px;
 				justify-content: space-around;
 				border-radius: inherit;
 				align-items: center;
-				// trovare modo per centrare i loghi
 				gap: 5px;
 				.contact-info-single-logo {
 					img {
