@@ -94,7 +94,7 @@
   height: var(--size);
   position: absolute;
   top: 250px;
-  left: 1730px;
+  left: 1770px;
 }
 #whoAreWePage-content .circular-whoAreWePage-decorations-right :nth-child(4) {
   --size: 190px;
@@ -102,6 +102,6 @@
   width: var(--size);
   height: var(--size);
   position: absolute;
-  top: 280px;
-  left: 2050px;
+  top: -280px;
+  left: 1350px;
 }/*# sourceMappingURL=WhoAreWe.css.map */

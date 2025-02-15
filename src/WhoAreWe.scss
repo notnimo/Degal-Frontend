@@ -96,7 +96,7 @@ $logo-blue: #1b72b8;
 			height: var(--size);
 			position: absolute;
 			top: 250px;
-			left: 1730px;
+			left: 1770px;
 		}
 		:nth-child(4) {
 			--size: 190px;
@@ -104,8 +104,8 @@ $logo-blue: #1b72b8;
 			width: var(--size);
 			height: var(--size);
 			position: absolute;
-			top: 280px;
-			left: 2050px;
+			top: -280px;
+			left: 1350px;
 		}
 	}
 }

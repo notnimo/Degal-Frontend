@@ -12,7 +12,7 @@ export default function WhoAreWe() {
 			scrollTrigger: {
 				start: "top 40%",
 				endTrigger: "#whoAreWePage-wrap",
-				end: "bottom bottom",
+				end: "top 80%",
 				scrub: 1,
 				trigger: "#whoAreWePage-content",
 				pin: true,
@@ -20,8 +20,24 @@ export default function WhoAreWe() {
 			opacity: 0,
 		});
 
+		//transition to left to add
+
 		gsap.from(
 			"#whoAreWePage-content>div.circular-whoAreWePage-decorations-left>div",
+			{
+				scrollTrigger: {
+					start: "top 40%",
+					endTrigger: "#whoAreWePage-wrap",
+					end: "top 80%",
+					scrub: 1,
+					trigger: "#whoAreWePage-content",
+				},
+				left: -250,
+			}
+		);
+
+		gsap.from(
+			"#whoAreWePage-content>div.circular-whoAreWePage-decorations-right>div",
 			{
 				scrollTrigger: {
 					start: "top 40%",
@@ -30,7 +46,7 @@ export default function WhoAreWe() {
 					scrub: 1,
 					trigger: "#whoAreWePage-content",
 				},
-				left: -250,
+				left: 1900,
 			}
 		);
 
@@ -47,7 +63,7 @@ export default function WhoAreWe() {
 					scrub: 1,
 					trigger: "#whoAreWePage-content",
 				},
-				translateX: index % 2 ? -(200 + index * 20) : 200 + index * 20,
+				translateX: index % 2 ? -(200 + index * 20) : 200 + index * 20, //to set the direction from witch the paragraphs come from
 			});
 		});
 	});
