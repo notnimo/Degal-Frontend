@@ -17,7 +17,7 @@
   min-width: 400px;
   min-height: 500px;
   text-align: center;
-  background-color: #090526 3;
+  background-color: #0f0750;
   border-radius: 10%;
 }
 #teamMembersPage-wrap .single-team-member-andHeader h1 {
@@ -31,9 +31,10 @@
   width: 250;
 }
 #teamMembersPage-wrap .single-team-member-andHeader h3 {
-  color: #96c8f0;
+  color: #acd3f3;
   font-family: inherit;
   font-size: 1rem;
+  text-shadow: 0 0 10px #d9ebf9, 0 0 15px #eff6fd, 0 0 20px white, 0 0 25px white, 0 0 30px white;
 }
 #teamMembersPage-wrap .single-team-member-andHeader h4 {
   color: #53a4e6;
@@ -75,12 +76,12 @@
   font-size: 1rem;
 }
 #teamMembersPage-wrap .single-team-member-andHeader:hover h4 {
-  color: #96c8f0;
+  color: #acd3f3;
   font-family: inherit;
   font-size: 0.8rem;
 }
 #teamMembersPage-wrap .single-team-member-andHeader:hover p {
-  color: #96c8f0;
+  color: #acd3f3;
   font-size: 0.7rem;
   text-align: left;
   overflow: hidden;

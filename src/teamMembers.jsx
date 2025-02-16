@@ -7,9 +7,20 @@ import "./teamMembers.css";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function TeamMembers() {
+	/*useGSAP(() => {
+		gsap.from("teamMembersPage-wrap", {
+			scrollTrigger: {
+				start: "center center",
+				end: "left center",
+				trigger: "single-team-member-andheader",
+				endTrigger: "endTGsap",
+			},
+		});
+	});*/
+
 	return (
 		<div id="teamMembersPage-wrap">
-			<div className="single-team-member-andheader">
+			<div className="single-team-member-andHeader">
 				<h1 style={{ minWidth: "375px", color: "white" }}>
 					TEAM MEMBERS
 				</h1>
@@ -49,7 +60,7 @@ export default function TeamMembers() {
 				<h4>Resource Manager</h4>
 				<p></p>
 			</div>
-			<div className="single-team-member-andHeader">
+			<div className="single-team-member-andHeader" id="endTGsap">
 				<img href="https://via.placeholder.com/150" alt="placeholder" />
 				<h3>LORENZO TESSITORE</h3>
 				<h4>Resource Manager</h4>

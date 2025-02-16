@@ -12,7 +12,7 @@ export default function WhoAreWe() {
 			scrollTrigger: {
 				start: "top 40%",
 				endTrigger: "#whoAreWePage-wrap",
-				end: "top 80%",
+				end: "bottom bottom",
 				scrub: 1,
 				trigger: "#whoAreWePage-content",
 				pin: true,
@@ -28,7 +28,7 @@ export default function WhoAreWe() {
 				scrollTrigger: {
 					start: "top 40%",
 					endTrigger: "#whoAreWePage-wrap",
-					end: "top 80%",
+					end: "bottom bottom",
 					scrub: 1,
 					trigger: "#whoAreWePage-content",
 				},

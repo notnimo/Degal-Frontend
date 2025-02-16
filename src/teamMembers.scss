@@ -1,6 +1,6 @@
 $logo-blue: #1b72b8;
-$div-fill-color: #090526 3;
-$h3-color: lighten($logo-blue, 35%);
+$div-fill-color: #0f0750;
+$h3-color: lighten($logo-blue, 40%);
 $h4-color: lighten($logo-blue, 20%);
 $p-color: $logo-blue;
 $wallpaper-color: #000;
@@ -44,6 +44,11 @@ $p-color-over: $h4-color-over;
 			color: $h3-color;
 			font-family: inherit;
 			font-size: 1rem;
+			text-shadow: 0 0 10px lighten($h3-color, 10%),
+				0 0 15px lighten($h3-color, 15%),
+				0 0 20px lighten($h3-color, 20%),
+				0 0 25px lighten($h3-color, 25%),
+				0 0 30px lighten($h3-color, 30%);
 		}
 		h4 {
 			color: $h4-color;
