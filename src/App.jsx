@@ -17,7 +17,7 @@ export default function App(props) {
 			{/*<DegalLogo />
 			<ScrollSuggestion />*/}
 			<WhoAreWe />
-			{/*<TeamMembers />*/}
+			<TeamMembers />
 			{/*<SponsorDisplay />*/}
 			<div className="spacer" />
 		</>

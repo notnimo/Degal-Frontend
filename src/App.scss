@@ -1,35 +1,42 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    overflow-x: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	overflow-x: hidden;
 }
 
 .test {
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: blue;
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	background-color: blue;
 }
 
 #root {
-    width: 100%;
+	width: 100%;
 }
 
 #degal-frontpage-logo {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transform-origin: center 42%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transform-origin: center 42%;
 }
 
 #scroll {
-    position: fixed;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 550px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 550px;
+}
+
+#whoAreWePage-wrap {
+	position: ;
+}
+
+#teamMembers-wrap {
 }
