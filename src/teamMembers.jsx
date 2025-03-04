@@ -7,25 +7,25 @@ import "./teamMembers.css";
 gsap.registerPlugin(ScrollTrigger);
 
 export default function TeamMembers() {
-	/*useGSAP(() => {
-		gsap.from("teamMembersPage-wrap", {
+	useGSAP(() => {
+		/*gsap.from("teamMembersPage-wrap", {
 			scrollTrigger: {
-				start: "center center",
-				end: "left center",
-				trigger: "single-team-member-andheader",
+				trigger: "single-team-member-andheader[0]",
+				start: "left center",
 				endTrigger: "endTGsap",
+				end: "right center",
+				scrub: 1,
 			},
 		});
-	});*/
+
+		gsap.to();*/
+	});
 
 	return (
 		<div id="teamMembersPage-wrap">
-			<h1
-				className="single-team-member-andHeader"
-				style={{ minWidth: "375px", color: "#1b72b8", textShadow: "" }}
-			>
-				TEAM MEMBERS
-			</h1>
+			<div className="single-team-member-andHeader">
+				<h1>TEAM MEMBERS</h1>
+			</div>
 			<div className="single-team-member-andHeader">
 				<div>
 					<img
