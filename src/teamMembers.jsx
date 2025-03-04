@@ -20,51 +20,88 @@ export default function TeamMembers() {
 
 	return (
 		<div id="teamMembersPage-wrap">
+			<h1
+				className="single-team-member-andHeader"
+				style={{ minWidth: "375px", color: "#1b72b8", textShadow: "" }}
+			>
+				TEAM MEMBERS
+			</h1>
 			<div className="single-team-member-andHeader">
-				<h1 style={{ minWidth: "375px", color: "white" }}>
-					TEAM MEMBERS
-				</h1>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>GABRIELE DI GIORGIO</h3>
+					<h4>Team Manager</h4>
+					<p></p>
+				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>GABRIELE DI GIORGIO</h3>
-				<h4>Team Manager</h4>
-				<p></p>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>DAMIANO LIVONI</h3>
+					<h4>Design Engineer</h4>
+					<p></p>
+				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>DAMIANO LIVONI</h3>
-				<h4>Design Engineer</h4>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>ARTURO SERPICO</h3>
+					<h4>Design Engineer</h4>
+					<p></p>
+				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>ARTURO SERPICO</h3>
-				<h4>Design Engineer</h4>
-				<p></p>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>LEONARDO ZUCCHINI</h3>
+					<h4>Manufacturing Engineer</h4>
+					<p></p>
+				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>LEONARDO ZUCCHINI</h3>
-				<h4>Manufacturing Engineer</h4>
-				<p></p>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>ADRIANO ROGGERO</h3>
+					<h4>Graphic Designer</h4>
+					<p></p>
+				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>ADRIANO ROGGERO</h3>
-				<h4>Graphic Designer</h4>
-				<p></p>
-			</div>
-			<div className="single-team-member-andHeader">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>EMMA BONELLI</h3>
-				<h4>Resource Manager</h4>
-				<p></p>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>EMMA BONELLI</h3>
+					<h4>Resource Manager</h4>
+					<p></p>
+				</div>
 			</div>
 			<div className="single-team-member-andHeader" id="endTGsap">
-				<img href="https://via.placeholder.com/150" alt="placeholder" />
-				<h3>LORENZO TESSITORE</h3>
-				<h4>Resource Manager</h4>
-				<p></p>
+				<div>
+					<img
+						href="https://via.placeholder.com/150"
+						alt="placeholder"
+					/>
+					<h3>LORENZO TESSITORE</h3>
+					<h4>Resource Manager</h4>
+					<p></p>
+				</div>
 			</div>
 		</div>
 	);

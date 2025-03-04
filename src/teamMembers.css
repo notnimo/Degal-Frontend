@@ -14,16 +14,22 @@
 #teamMembersPage-wrap .single-team-member-andHeader {
   font-family: inherit;
   padding: 10px;
+  text-align: center;
+}
+#teamMembersPage-wrap .single-team-member-andHeader div {
   min-width: 400px;
   min-height: 500px;
-  text-align: center;
   background-color: #0f0750;
   border-radius: 10%;
 }
 #teamMembersPage-wrap .single-team-member-andHeader h1 {
   font-size: 1.2rem;
-  color: #fff;
   font-family: inherit;
+  /*text-shadow: 0 0 10px lighten($logo-blue, 10%),
+  	0 0 15px lighten($logo-blue, 15%),
+  	0 0 20px lighten($logo-blue, 20%),
+  	0 0 25px lighten($logo-blue, 25%),
+  	0 0 30px lighten($logo-blue, 30%);*/
 }
 #teamMembersPage-wrap .single-team-member-andHeader img {
   border-radius: 10%;
@@ -52,6 +58,8 @@
 #teamMembersPage-wrap .single-team-member-andHeader:hover {
   font-family: inherit;
   padding: 10px;
+}
+#teamMembersPage-wrap .single-team-member-andHeader:hover div {
   min-width: 400px;
   min-height: 500px;
   text-align: center;

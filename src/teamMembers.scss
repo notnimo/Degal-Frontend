@@ -25,15 +25,21 @@ $p-color-over: $h4-color-over;
 	.single-team-member-andHeader {
 		font-family: inherit;
 		padding: 10px;
-		min-width: 400px;
-		min-height: 500px;
 		text-align: center;
-		background-color: $div-fill-color;
-		border-radius: 10%;
+		div {
+			min-width: 400px;
+			min-height: 500px;
+			background-color: $div-fill-color;
+			border-radius: 10%;
+		}
 		h1 {
 			font-size: 1.2rem;
-			color: #fff;
 			font-family: inherit;
+			/*text-shadow: 0 0 10px lighten($logo-blue, 10%),
+				0 0 15px lighten($logo-blue, 15%),
+				0 0 20px lighten($logo-blue, 20%),
+				0 0 25px lighten($logo-blue, 25%),
+				0 0 30px lighten($logo-blue, 30%);*/
 		}
 		img {
 			border-radius: 10%;
@@ -67,13 +73,15 @@ $p-color-over: $h4-color-over;
 	.single-team-member-andHeader:hover {
 		font-family: inherit;
 		padding: 10px;
-		min-width: 400px;
-		min-height: 500px;
-		text-align: center;
-		transition: 0.5s;
-		box-shadow: -10px 10px 5px #1c2836;
-		background-color: $div-fill-color-over;
-		border-radius: 10%;
+		div {
+			min-width: 400px;
+			min-height: 500px;
+			text-align: center;
+			transition: 0.5s;
+			box-shadow: -10px 10px 5px #1c2836;
+			background-color: $div-fill-color-over;
+			border-radius: 10%;
+		}
 		h1 {
 			font-size: 1.2rem;
 			font-family: inherit;
