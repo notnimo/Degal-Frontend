@@ -20,8 +20,6 @@ export default function WhoAreWe() {
 			opacity: 0,
 		});
 
-		//transition to left to add
-
 		gsap.from(
 			"#whoAreWePage-content>div.circular-whoAreWePage-decorations-left>div",
 			{

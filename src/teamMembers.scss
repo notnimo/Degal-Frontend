@@ -22,6 +22,9 @@ $p-color-over: $h4-color-over;
 	justify-content: space-around; /*Space evenly between the divs*/
 	gap: 40px; /*Gap between divs*/
 	margin: 20px;
+	.space {
+		min-height: 850px;
+	}
 	.single-team-member-andHeader {
 		font-family: inherit;
 		padding: 10px;

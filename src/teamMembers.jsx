@@ -8,22 +8,31 @@ gsap.registerPlugin(ScrollTrigger);
 
 export default function TeamMembers() {
 	useGSAP(() => {
-		/*gsap.from("teamMembersPage-wrap", {
+		/*let TMCards = document.querySelectorAll(
+			".single-team-member-andHeader"
+		);
+
+		TMCards.forEach((element) => {*/
+		gsap.to("#teamMembersPage-wrap", {
 			scrollTrigger: {
-				trigger: "single-team-member-andheader[0]",
-				start: "left center",
-				endTrigger: "endTGsap",
-				end: "right center",
+				trigger: "#initTrigger",
+				start: "left",
+				endTrigger: "#endTGsap",
+				end: "center right",
 				scrub: 1,
 			},
+			translateX:
+				document
+					.getElementById("teamMembersPage-wrap")
+					.getBoundingClientRect().x - 3455,
+			duration: 100,
 		});
-
-		gsap.to();*/
 	});
 
 	return (
 		<div id="teamMembersPage-wrap">
-			<div className="single-team-member-andHeader">
+			<div className="space"></div>
+			<div className="single-team-member-andHeader" id="initTrigger">
 				<h1>TEAM MEMBERS</h1>
 			</div>
 			<div className="single-team-member-andHeader">
@@ -103,6 +112,7 @@ export default function TeamMembers() {
 					<p></p>
 				</div>
 			</div>
+			<div className="space"></div>
 		</div>
 	);
 }

@@ -32,4 +32,13 @@ body {
   right: 0;
   margin: auto;
   top: 550px;
+}
+
+#WAWeTM-wrap #whoAreWePage-wrap {
+  position: relative;
+  top: 0;
+}
+#WAWeTM-wrap #teamMembersPage-wrap {
+  position: relative;
+  top: 0px;
 }/*# sourceMappingURL=App.css.map */

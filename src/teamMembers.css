@@ -11,6 +11,9 @@
   gap: 40px; /*Gap between divs*/
   margin: 20px;
 }
+#teamMembersPage-wrap .space {
+  min-height: 850px;
+}
 #teamMembersPage-wrap .single-team-member-andHeader {
   font-family: inherit;
   padding: 10px;

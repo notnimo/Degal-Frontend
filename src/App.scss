@@ -33,3 +33,15 @@ body {
 	margin: auto;
 	top: 550px;
 }
+
+#WAWeTM-wrap {
+	#whoAreWePage-wrap {
+		position: relative;
+		top: 0;
+	}
+
+	#teamMembersPage-wrap {
+		position: relative;
+		top: 0px; // not sure why but it works
+	}
+}
