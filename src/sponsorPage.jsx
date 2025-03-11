@@ -17,15 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function SponsorDisplay() {
 	return (
 		<div id="sponsorPage-wrap">
-			<h1
-				style={{
-					minWidth: "375px",
-					color: "white",
-					fontSize: "2.5rem",
-				}}
-			>
-				OUR SPONSOR
-			</h1>
+			<h1 id="sponsorPage-header">OUR SPONSORS</h1>
 			<div id="sponsors-wrap">
 				<div className="single-sponsor-wrap">
 					<div>
@@ -111,7 +103,7 @@ export default function SponsorDisplay() {
 						</div>
 					</div>
 				</div>
-				<div className="single-sponsor-wrap">
+				{/*<div className="single-sponsor-wrap">
 					<div>
 						<img
 							id="infDelBorgo-sponsor-logo"
@@ -142,7 +134,7 @@ export default function SponsorDisplay() {
 							</a>
 						</div>
 					</div>
-				</div>
+				</div>*/}
 			</div>
 		</div>
 	);

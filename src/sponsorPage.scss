@@ -11,6 +11,16 @@ $square-side: 600px;
 	font-family: "Good Times";
 	background-color: $wallpaper-color;
 	text-align: center;
+	h1 {
+		font-size: 4rem;
+		font-family: inherit;
+		color: white;
+		min-width: 375px;
+		text-shadow: 0 0 15px lighten($logo-blue, 10%),
+			0 0 20px lighten($logo-blue, 12%), 0 0 25px lighten($logo-blue, 15%),
+			0 0 30px lighten($logo-blue, 20%), 0 0 35px lighten($logo-blue, 25%),
+			0 0 40px lighten($logo-blue, 30%), 0 0 45px lighten($logo-blue, 35%);
+	}
 	#sponsors-wrap {
 		display: flex;
 		justify-content: space-around;
