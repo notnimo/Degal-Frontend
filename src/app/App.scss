@@ -34,14 +34,17 @@ body {
 	top: 550px;
 }
 
-#WAWeTM-wrap {
-	#whoAreWePage-wrap {
-		position: relative;
-		top: 0;
-	}
+#whoAreWePage-wrap {
+	position: relative;
+	top: 0px;
+}
 
-	#teamMembersPage-wrap {
-		position: relative;
-		top: 0px; // not sure why but it works
-	}
+#teamMembersPage-wrap {
+	position: relative;
+	top: 0px;
+}
+
+#sponsorPage-wrap {
+	position: relative;
+	top: 0px;
 }

@@ -17,6 +17,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function SponsorDisplay() {
 	return (
 		<div id="sponsorPage-wrap">
+			<div className="space"></div>
 			<h1 id="sponsorPage-header">OUR SPONSORS</h1>
 			<div id="sponsors-wrap">
 				<div className="single-sponsor-wrap">
@@ -136,6 +137,7 @@ export default function SponsorDisplay() {
 					</div>
 				</div>*/}
 			</div>
+			<div className="space"></div>
 		</div>
 	);
 }

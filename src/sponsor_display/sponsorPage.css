@@ -14,6 +14,9 @@
   min-width: 375px;
   text-shadow: 0 0 15px #278ddf, 0 0 20px #3092e1, 0 0 25px #3d99e3, 0 0 30px #53a4e6, 0 0 35px #69b0e9, 0 0 40px #80bcec, 0 0 45px #96c8f0;
 }
+#sponsorPage-wrap .space {
+  min-height: 100px;
+}
 #sponsorPage-wrap #sponsors-wrap {
   display: flex;
   justify-content: space-around;

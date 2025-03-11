@@ -21,6 +21,9 @@ $square-side: 600px;
 			0 0 30px lighten($logo-blue, 20%), 0 0 35px lighten($logo-blue, 25%),
 			0 0 40px lighten($logo-blue, 30%), 0 0 45px lighten($logo-blue, 35%);
 	}
+	.space {
+		min-height: 100px;
+	}
 	#sponsors-wrap {
 		display: flex;
 		justify-content: space-around;
