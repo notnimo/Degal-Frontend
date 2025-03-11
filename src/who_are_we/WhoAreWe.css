@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Good Times";
-  src: url("good_times.otf");
+  src: url("/workspaces/Degal-Frontend/src/good_times.otf");
 }
 #whoAreWePage-wrap {
   width: 100%;

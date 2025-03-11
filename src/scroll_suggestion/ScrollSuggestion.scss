@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Good Times';
-    src: url('good_times.otf');
+	font-family: "Good Times";
+	src: url("/workspaces/Degal-Frontend/src/good_times.otf");
 }
 
 #arrows path {
-    fill: black;
-    fill-opacity: 1;
-    stroke: #000;
-    stroke-width: 0;
-    stroke-dasharray: none;
+	fill: black;
+	fill-opacity: 1;
+	stroke: #000;
+	stroke-width: 0;
+	stroke-dasharray: none;
 }
 
 #scroll {
-    text-align: center;
-    font-family: 'Good Times';
-    font-size: 1.2rem;
-    width: 100px;
+	text-align: center;
+	font-family: "Good Times";
+	font-size: 1.2rem;
+	width: 100px;
 }

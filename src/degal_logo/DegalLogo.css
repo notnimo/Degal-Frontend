@@ -1,49 +1,49 @@
 @font-face {
-    font-family: 'Good Times';
-    src: url('good_times.otf');
+	font-family: "Good Times";
+	src: url("/workspaces/Degal-Frontend/src/good_times.otf");
 }
 
 #degal-frontpage-logo text {
-    font-style:normal;
-    font-variant:normal;
-    font-weight:400;
-    font-stretch:normal;
-    font-size:20.5722px;
-    font-family:'Good Times';
-    -inkscape-font-specification:'Good Times, Normal';
-    font-variant-ligatures:normal;
-    font-variant-caps:normal;
-    font-variant-numeric:normal;
-    font-variant-east-asian:normal;
-    text-align:start;
-    writing-mode:lr-tb;
-    direction:ltr;
-    text-anchor:start;
-    fill:#000;
-    fill-opacity:1;
-    stroke:#000;
-    stroke-width:0;
-    stroke-dasharray:none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	font-stretch: normal;
+	font-size: 20.5722px;
+	font-family: "Good Times";
+	-inkscape-font-specification: "Good Times, Normal";
+	font-variant-ligatures: normal;
+	font-variant-caps: normal;
+	font-variant-numeric: normal;
+	font-variant-east-asian: normal;
+	text-align: start;
+	writing-mode: lr-tb;
+	direction: ltr;
+	text-anchor: start;
+	fill: #000;
+	fill-opacity: 1;
+	stroke: #000;
+	stroke-width: 0;
+	stroke-dasharray: none;
 }
 
 #degal-frontpage-logo text tspan {
-    fill:#000;
-    fill-opacity:1;
-    stroke-width:0;
-    stroke-dasharray:none;
+	fill: #000;
+	fill-opacity: 1;
+	stroke-width: 0;
+	stroke-dasharray: none;
 }
 
 #degal-frontpage-logo path {
-    fill:#1b72b8;
-    fill-opacity:1;
-    stroke:#000;
-    stroke-width:0;
-    stroke-dasharray:none;
+	fill: #1b72b8;
+	fill-opacity: 1;
+	stroke: #000;
+	stroke-width: 0;
+	stroke-dasharray: none;
 }
 
 #degal-frontpage-logo path.frontpage-logo-triagle {
-    fill:#000;
-    fill-opacity:1;
-    stroke:#000;
-    stroke-width:0;
+	fill: #000;
+	fill-opacity: 1;
+	stroke: #000;
+	stroke-width: 0;
 }
