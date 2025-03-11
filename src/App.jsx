@@ -14,13 +14,13 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 export default function App(props) {
 	return (
 		<>
-			<DegalLogo />
+			{/*<DegalLogo />
 			<ScrollSuggestion />
 			<div id="WAWeTM-wrap">
 				<WhoAreWe />
 				<TeamMembers />
-			</div>
-			{/*<SponsorDisplay />*/}
+			</div>*/}
+			<SponsorDisplay />
 			<div className="spacer" />
 		</>
 	);
