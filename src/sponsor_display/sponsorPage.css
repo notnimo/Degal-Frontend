@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Good Times";
-  src: url("good_times.otf");
+  src: url("/workspaces/Degal-Frontend/src/good_times.otf");
 }
 #sponsorPage-wrap {
   font-family: "Good Times";
@@ -8,7 +8,7 @@
   text-align: center;
 }
 #sponsorPage-wrap h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-family: inherit;
   color: white;
   min-width: 375px;
