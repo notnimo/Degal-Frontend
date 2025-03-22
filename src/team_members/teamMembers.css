@@ -25,6 +25,14 @@
   background-color: #0f0750;
   border-radius: 10%;
 }
+#teamMembersPage-wrap .single-team-member-andHeader div .TM-paragraph {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #1b72b8;
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: inherit;
+}
 #teamMembersPage-wrap .single-team-member-andHeader h1 {
   font-size: 2.5rem;
   font-family: inherit;
@@ -52,25 +60,17 @@
   font-family: inherit;
   font-size: 0.8rem;
 }
-#teamMembersPage-wrap .single-team-member-andHeader p {
-  color: #1b72b8;
-  font-size: 0.7rem;
-  text-align: left;
-  overflow: hidden;
-  text-wrap: nowrap;
-  font-family: inherit;
-}
 #teamMembersPage-wrap .single-team-member-andHeader:hover div {
   transition: 0.5s;
   box-shadow: -10px 10px 5px #1c2836;
   background-color: #1b72b8;
 }
+#teamMembersPage-wrap .single-team-member-andHeader:hover div .TM-paragraph {
+  color: #53a4e6;
+}
 #teamMembersPage-wrap .single-team-member-andHeader:hover h3 {
   color: #acd3f3;
 }
 #teamMembersPage-wrap .single-team-member-andHeader:hover h4 {
-  color: #53a4e6;
-}
-#teamMembersPage-wrap .single-team-member-andHeader:hover p {
   color: #53a4e6;
 }/*# sourceMappingURL=teamMembers.css.map */

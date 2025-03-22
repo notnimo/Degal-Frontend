@@ -29,11 +29,21 @@ $p-color-over: $h4-color-over;
 		font-family: inherit;
 		padding: 10px;
 		text-align: center;
+
 		div {
 			min-width: 400px;
 			min-height: 500px;
 			background-color: $div-fill-color;
 			border-radius: 10%;
+
+			.TM-paragraph {
+				margin-left: 10px;
+				margin-right: 10px;
+				color: $p-color;
+				font-size: 0.7rem;
+				text-align: center;
+				font-family: inherit;
+			}
 		}
 		h1 {
 			font-size: 2.5rem;
@@ -64,29 +74,22 @@ $p-color-over: $h4-color-over;
 			font-family: inherit;
 			font-size: 0.8rem;
 		}
-		p {
-			color: $p-color;
-			font-size: 0.7rem;
-			text-align: left;
-			overflow: hidden;
-			text-wrap: nowrap;
-			font-family: inherit;
-		}
 	}
 	.single-team-member-andHeader:hover {
 		div {
 			transition: 0.5s;
 			box-shadow: -10px 10px 5px #1c2836;
 			background-color: $div-fill-color-over;
+
+			.TM-paragraph {
+				color: $p-color-over;
+			}
 		}
 		h3 {
 			color: $h3-color-over;
 		}
 		h4 {
 			color: $h4-color-over;
-		}
-		p {
-			color: $p-color-over;
 		}
 	}
 }
