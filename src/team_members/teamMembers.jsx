@@ -4,6 +4,13 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./teamMembers.css";
 import { use } from "react";
+import "./member_immages/adriano.png";
+import "./member_immages/arturo.png";
+import "./member_immages/damiano (1).jpg";
+import "./member_immages/emma.png";
+import "./member_immages/io.png";
+import "./member_immages/leonardo.png";
+import "./member_immages/tex.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,7 +26,7 @@ export default function TeamMembers() {
 			scrollTrigger: {
 				trigger: containerRef.current,
 				start: "top top",
-				end: () => "+=" + containerRef.current.offsetWidth,
+				end: () => "+=" + containerRef.current.offsetWidth + "+900",
 				pin: true,
 				scrub: 1,
 			},
@@ -31,7 +38,7 @@ export default function TeamMembers() {
 				scrollTrigger: {
 					trigger: containerRef.current,
 					start: "top top",
-					end: () => "+=" + containerRef.current.offsetWidth,
+					end: () => "+=" + containerRef.current.offsetWidth + "+900",
 					scrub: 1,
 				},
 			});
@@ -40,17 +47,18 @@ export default function TeamMembers() {
 
 	return (
 		<div id="teamMembersPage-wrap" ref={containerRef}>
-			{/*ref={container_ref}*/}
 			<div className="space" id="initTrigger"></div>
 			<div className="single-team-member-andHeader">
 				<h1>TEAM MEMBERS</h1>
 			</div>
 			<div className="single-team-member-andHeader">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/io.png"
+							src="./member_immages/io.png"
+						/>
+					</div>
 					<h3>GABRIELE DI GIORGIO</h3>
 					<h4>Team Manager</h4>
 					<p className="TM-paragraph">
@@ -64,22 +72,33 @@ export default function TeamMembers() {
 				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/damiano (1).jpg"
+							src="./member_immages/damiano (1).jpg"
+						/>
+					</div>
 					<h3>DAMIANO LIVONI</h3>
 					<h4>Design Engineer</h4>
-					<p className="TM-paragraph"></p>
+					<p className="TM-paragraph">
+						I started with the only role of running the simulation
+						to improve the areodynamics of the car, but I also
+						thought that the team needed a website for markeying
+						purposes so i learned web development and coded this
+						website. I sometimes help out the other team members
+						with their tasks if needed.
+					</p>
 				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/arturo.png"
+							src="./member_immages/arturo.png"
+						/>
+					</div>
 					<h3>ARTURO SERPICO</h3>
 					<h4>Design Engineer</h4>
 					<p className="TM-paragraph">
@@ -92,11 +111,13 @@ export default function TeamMembers() {
 				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/leonardo.png"
+							src="./member_immages/leonardo.png"
+						/>
+					</div>
 					<h3>LEONARDO ZUCCHINI</h3>
 					<h4>Manufacturing Engineer</h4>
 					<p className="TM-paragraph">
@@ -111,11 +132,13 @@ export default function TeamMembers() {
 				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/adriano.png"
+							src="./member_immages/adriano.png"
+						/>
+					</div>
 					<h3>ADRIANO ROGGERO</h3>
 					<h4>Graphic Designer</h4>
 					<p className="TM-paragraph">
@@ -127,11 +150,13 @@ export default function TeamMembers() {
 				</div>
 			</div>
 			<div className="single-team-member-andHeader">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/emma.png"
+							src="./member_immages/emma.png"
+						/>
+					</div>
 					<h3>EMMA BONELLI</h3>
 					<h4>Resource Manager</h4>
 					<p className="TM-paragraph">
@@ -145,11 +170,13 @@ export default function TeamMembers() {
 				</div>
 			</div>
 			<div className="single-team-member-andHeader" id="endTGsap">
-				<div>
-					<img
-						href="https://via.placeholder.com/150"
-						alt="placeholder"
-					/>
+				<div className="TM-cont">
+					<div className="TM-image-cont">
+						<img
+							srcSet="./member_immages/tex.png"
+							src="./member_immages/tex.png"
+						/>
+					</div>
 					<h3>LORENZO TESSITORE</h3>
 					<h4>Resource Manager</h4>
 					<p className="TM-paragraph">

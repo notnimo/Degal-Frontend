@@ -19,20 +19,6 @@
   padding: 10px;
   text-align: center;
 }
-#teamMembersPage-wrap .single-team-member-andHeader div {
-  min-width: 400px;
-  min-height: 500px;
-  background-color: #0f0750;
-  border-radius: 10%;
-}
-#teamMembersPage-wrap .single-team-member-andHeader div .TM-paragraph {
-  margin-left: 10px;
-  margin-right: 10px;
-  color: #1b72b8;
-  font-size: 0.7rem;
-  text-align: center;
-  font-family: inherit;
-}
 #teamMembersPage-wrap .single-team-member-andHeader h1 {
   font-size: 2.5rem;
   font-family: inherit;
@@ -40,32 +26,52 @@
   min-width: 375px;
   text-shadow: 0 0 15px #278ddf, 0 0 20px #3092e1, 0 0 25px #3d99e3;
 }
-#teamMembersPage-wrap .single-team-member-andHeader img {
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont {
+  min-width: 400px;
+  min-height: 500px;
+  background-color: #0f0750;
+  border-radius: 10%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont .TM-paragraph {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #1b72b8;
+  font-size: 0.7rem;
+  text-align: center;
+  font-family: inherit;
+}
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont .TM-image-cont {
+  width: 290px;
+  height: 290px;
+  background-color: white;
+  border-radius: 50%;
+  align-self: center;
+  margin-top: 10px;
+}
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont img {
   border-radius: 10%;
   height: 250;
   width: 250;
 }
-#teamMembersPage-wrap .single-team-member-andHeader h3 {
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont h3 {
   color: #53a4e6;
   font-family: inherit;
   font-size: 1rem;
-  /*text-shadow: 0 0 10px lighten($h3-color, 10%),
-  	0 0 15px lighten($h3-color, 15%),
-  	0 0 20px lighten($h3-color, 20%),
-  	0 0 25px lighten($h3-color, 25%),
-  	0 0 30px lighten($h3-color, 30%);*/
 }
-#teamMembersPage-wrap .single-team-member-andHeader h4 {
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont h4 {
   color: #278ddf;
   font-family: inherit;
   font-size: 0.8rem;
 }
-#teamMembersPage-wrap .single-team-member-andHeader:hover div {
+#teamMembersPage-wrap .single-team-member-andHeader:hover .TM-cont {
   transition: 0.5s;
   box-shadow: -10px 10px 5px #1c2836;
   background-color: #1b72b8;
 }
-#teamMembersPage-wrap .single-team-member-andHeader:hover div .TM-paragraph {
+#teamMembersPage-wrap .single-team-member-andHeader:hover .TM-cont .TM-paragraph {
   color: #53a4e6;
 }
 #teamMembersPage-wrap .single-team-member-andHeader:hover h3 {

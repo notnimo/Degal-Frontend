@@ -30,21 +30,6 @@ $p-color-over: $h4-color-over;
 		padding: 10px;
 		text-align: center;
 
-		div {
-			min-width: 400px;
-			min-height: 500px;
-			background-color: $div-fill-color;
-			border-radius: 10%;
-
-			.TM-paragraph {
-				margin-left: 10px;
-				margin-right: 10px;
-				color: $p-color;
-				font-size: 0.7rem;
-				text-align: center;
-				font-family: inherit;
-			}
-		}
 		h1 {
 			font-size: 2.5rem;
 			font-family: inherit;
@@ -54,29 +39,55 @@ $p-color-over: $h4-color-over;
 				0 0 20px lighten($logo-blue, 12%),
 				0 0 25px lighten($logo-blue, 15%);
 		}
-		img {
+
+		.TM-cont {
+			min-width: 400px;
+			min-height: 500px;
+			background-color: $div-fill-color;
 			border-radius: 10%;
-			height: 250;
-			width: 250;
-		}
-		h3 {
-			color: $h3-color;
-			font-family: inherit;
-			font-size: 1rem;
-			/*text-shadow: 0 0 10px lighten($h3-color, 10%),
-				0 0 15px lighten($h3-color, 15%),
-				0 0 20px lighten($h3-color, 20%),
-				0 0 25px lighten($h3-color, 25%),
-				0 0 30px lighten($h3-color, 30%);*/
-		}
-		h4 {
-			color: $h4-color;
-			font-family: inherit;
-			font-size: 0.8rem;
+			align-items: center;
+			display: flex;
+			flex-direction: column;
+
+			.TM-paragraph {
+				margin-left: 10px;
+				margin-right: 10px;
+				color: $p-color;
+				font-size: 0.7rem;
+				text-align: center;
+				font-family: inherit;
+			}
+
+			.TM-image-cont {
+				width: 290px;
+				height: 290px;
+				background-color: white;
+				border-radius: 50%;
+				align-self: center;
+				margin-top: 10px;
+			}
+
+			img {
+				border-radius: 10%;
+				height: 250;
+				width: 250;
+			}
+
+			h3 {
+				color: $h3-color;
+				font-family: inherit;
+				font-size: 1rem;
+			}
+
+			h4 {
+				color: $h4-color;
+				font-family: inherit;
+				font-size: 0.8rem;
+			}
 		}
 	}
 	.single-team-member-andHeader:hover {
-		div {
+		.TM-cont {
 			transition: 0.5s;
 			box-shadow: -10px 10px 5px #1c2836;
 			background-color: $div-fill-color-over;
