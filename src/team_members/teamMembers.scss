@@ -65,12 +65,13 @@ $p-color-over: $h4-color-over;
 				border-radius: 50%;
 				align-self: center;
 				margin-top: 10px;
-			}
 
-			img {
-				border-radius: 10%;
-				height: 250;
-				width: 250;
+				img {
+					width: 100%;
+					height: 100%;
+					border-radius: 50%;
+					object-fit: cover;
+				}
 			}
 
 			h3 {

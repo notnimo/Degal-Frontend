@@ -4,13 +4,13 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./teamMembers.css";
 import { use } from "react";
-import "./member_immages/adriano.png";
-import "./member_immages/arturo.png";
-import "./member_immages/damiano (1).jpg";
-import "./member_immages/emma.png";
-import "./member_immages/io.png";
-import "./member_immages/leonardo.png";
-import "./member_immages/tex.png";
+import adriano from "./member_immages/adriano.png";
+import arturo from "./member_immages/arturo.png";
+import damiano from "./member_immages/damiano.png";
+import emma from "./member_immages/emma.png";
+import digio from "./member_immages/io.png";
+import leonardo from "./member_immages/leonardo.png";
+import tex from "./member_immages/tex.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,10 +54,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/io.png"
-							src="./member_immages/io.png"
-						/>
+						<img src={digio} />
 					</div>
 					<h3>GABRIELE DI GIORGIO</h3>
 					<h4>Team Manager</h4>
@@ -74,10 +71,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/damiano (1).jpg"
-							src="./member_immages/damiano (1).jpg"
-						/>
+						<img src={damiano} />
 					</div>
 					<h3>DAMIANO LIVONI</h3>
 					<h4>Design Engineer</h4>
@@ -94,10 +88,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/arturo.png"
-							src="./member_immages/arturo.png"
-						/>
+						<img src={arturo} />
 					</div>
 					<h3>ARTURO SERPICO</h3>
 					<h4>Design Engineer</h4>
@@ -113,10 +104,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/leonardo.png"
-							src="./member_immages/leonardo.png"
-						/>
+						<img src={leonardo} />
 					</div>
 					<h3>LEONARDO ZUCCHINI</h3>
 					<h4>Manufacturing Engineer</h4>
@@ -134,10 +122,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/adriano.png"
-							src="./member_immages/adriano.png"
-						/>
+						<img src={adriano} />
 					</div>
 					<h3>ADRIANO ROGGERO</h3>
 					<h4>Graphic Designer</h4>
@@ -152,10 +137,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/emma.png"
-							src="./member_immages/emma.png"
-						/>
+						<img src={emma} />
 					</div>
 					<h3>EMMA BONELLI</h3>
 					<h4>Resource Manager</h4>
@@ -172,10 +154,7 @@ export default function TeamMembers() {
 			<div className="single-team-member-andHeader" id="endTGsap">
 				<div className="TM-cont">
 					<div className="TM-image-cont">
-						<img
-							srcSet="./member_immages/tex.png"
-							src="./member_immages/tex.png"
-						/>
+						<img src={tex} />
 					</div>
 					<h3>LORENZO TESSITORE</h3>
 					<h4>Resource Manager</h4>

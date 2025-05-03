@@ -51,10 +51,12 @@
   align-self: center;
   margin-top: 10px;
 }
-#teamMembersPage-wrap .single-team-member-andHeader .TM-cont img {
-  border-radius: 10%;
-  height: 250;
-  width: 250;
+#teamMembersPage-wrap .single-team-member-andHeader .TM-cont .TM-image-cont img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #teamMembersPage-wrap .single-team-member-andHeader .TM-cont h3 {
   color: #53a4e6;
