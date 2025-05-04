@@ -73,8 +73,18 @@ export default function WhoAreWe() {
 				<div id="whoAreWePage-content">
 					<h1>Who are we?</h1>
 					<main>
-						<div>hello</div>
-						<div>hello</div>
+						<div>
+							We are a team of high school students competing in
+							F1 in Schools,
+							<br /> a competition in which you have to create a
+							F1 team and administer it under <br /> many aspects,
+							like engineering or marketing.
+						</div>
+						<div>
+							With passion and hard work, we managed to qualify to
+							the Regional Finals, <br /> a great achievement that
+							will make our level of competitiveness rise.
+						</div>
 						<div>hello</div>
 						<div>hello</div>
 						<div>hello</div>
