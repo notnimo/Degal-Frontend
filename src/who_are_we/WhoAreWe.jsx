@@ -85,10 +85,36 @@ export default function WhoAreWe() {
 							the Regional Finals, <br /> a great achievement that
 							will make our level of competitiveness rise.
 						</div>
-						<div>hello</div>
-						<div>hello</div>
-						<div>hello</div>
-						<div>hello</div>
+						<div className="par-int">Mission</div>
+						<div>
+							Involving and making the project known to as many
+							people as possible <br />
+							from our point of view means not only telling a
+							story, but building a bond <br />
+							that can inspire and make each individual feel part
+							of something special.
+							<br />
+							It is an invitation to share a vision that
+							transcends the boundaries <br />
+							of a simple competition, to transform into a
+							movement that enhances talents, <br />
+							promotes collaboration and generates a positive
+							impact.
+						</div>
+						<div className="par-int">Vision</div>
+						<div>
+							Our vision for F1 in Schools is an extraordinary
+							journey, <br />
+							full of exciting challenges and increasingly
+							significant milestones, which allow us <br />
+							to grow and improve, both as individuals and as a
+							team. So far, <br />
+							we have demonstrated determination and competence,
+							passing the Regional Qualifiers <br />
+							and earning a place in the Regional Finals. This
+							result further motivates us <br />
+							to give our best and believe in our dreams.
+						</div>
 					</main>
 					<div className="circular-whoAreWePage-decorations-left">
 						<div></div>
