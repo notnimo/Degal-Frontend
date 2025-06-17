@@ -26,7 +26,7 @@ export default function TeamMembers() {
 			scrollTrigger: {
 				trigger: containerRef.current,
 				start: "top top",
-				end: () => "+=" + containerRef.current.offsetWidth + "+900",
+				end: () => "+=" + containerRef.current.offsetWidth + "+950",
 				pin: true,
 				scrub: 1,
 			},
@@ -34,11 +34,11 @@ export default function TeamMembers() {
 
 		TMCards.forEach((element, index) => {
 			gsap.to(element, {
-				x: -containerRef.current.offsetWidth,
+				x: () => "-" + containerRef.current.offsetWidth + "-5000",
 				scrollTrigger: {
 					trigger: containerRef.current,
 					start: "top top",
-					end: () => "+=" + containerRef.current.offsetWidth + "+900",
+					end: () => "+=" + containerRef.current.offsetWidth + "+950",
 					scrub: 1,
 				},
 			});
@@ -77,8 +77,8 @@ export default function TeamMembers() {
 					<h4>Design Engineer</h4>
 					<p className="TM-paragraph">
 						I started with the only role of running the simulation
-						to improve the areodynamics of the car, but I also
-						thought that the team needed a website for markeying
+						to improve the aerodynamics of the car, but I also
+						thought that the team needed a website for marketing
 						purposes so i learned web development and coded this
 						website. I sometimes help out the other team members
 						with their tasks if needed.

@@ -85,10 +85,6 @@ export default function WhoAreWe() {
 							the Regional Finals, <br /> a great achievement that
 							will make our level of competitiveness rise.
 						</div>
-						<div>hello</div>
-						<div>hello</div>
-						<div>hello</div>
-						<div>hello</div>
 					</main>
 					<div className="circular-whoAreWePage-decorations-left">
 						<div></div>
