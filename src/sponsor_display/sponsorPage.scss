@@ -11,6 +11,7 @@ $square-side: 600px;
 	font-family: "Good Times";
 	background-color: $wallpaper-color;
 	text-align: center;
+
 	h1 {
 		font-size: 2.5rem;
 		font-family: inherit;
@@ -21,14 +22,17 @@ $square-side: 600px;
 			0 0 30px lighten($logo-blue, 20%), 0 0 35px lighten($logo-blue, 25%),
 			0 0 40px lighten($logo-blue, 30%), 0 0 45px lighten($logo-blue, 35%);
 	}
+
 	.space {
 		min-height: 100px;
 	}
-	#sponsors-wrap {
+
+	.sponsors-wrap {
 		display: flex;
 		justify-content: space-around;
 		gap: 60px;
 		align-items: center;
+
 		.single-sponsor-wrap {
 			display: flex;
 			flex-direction: column;
@@ -37,20 +41,28 @@ $square-side: 600px;
 			width: $square-side;
 			height: $square-side;
 			border-radius: 12px;
+
 			#macron-sponsor-logo {
 				border-radius: inherit;
 				height: 300px;
 				width: 300px;
 			}
+
 			#cosmo3d-sponsor-logo {
 				border-radius: inherit;
 				height: 300px;
 			}
-			#infDelBorgo-sponsor-logo {
+
+			#zerbini-sponsor-logo {
 				border-radius: inherit;
 				height: 300px;
-				width: 300px;
 			}
+
+			#napoli-sponsor-logo {
+				border-radius: inherit;
+				height: 300px;
+			}
+
 			.contact-info-wrap {
 				display: flex;
 				justify-content: space-around;

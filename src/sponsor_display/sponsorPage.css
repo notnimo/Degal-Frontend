@@ -17,13 +17,13 @@
 #sponsorPage-wrap .space {
   min-height: 100px;
 }
-#sponsorPage-wrap #sponsors-wrap {
+#sponsorPage-wrap .sponsors-wrap {
   display: flex;
   justify-content: space-around;
   gap: 60px;
   align-items: center;
 }
-#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap {
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -32,28 +32,31 @@
   height: 600px;
   border-radius: 12px;
 }
-#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap #macron-sponsor-logo {
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap #macron-sponsor-logo {
   border-radius: inherit;
   height: 300px;
   width: 300px;
 }
-#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap #cosmo3d-sponsor-logo {
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap #cosmo3d-sponsor-logo {
   border-radius: inherit;
   height: 300px;
 }
-#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap #infDelBorgo-sponsor-logo {
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap #zerbini-sponsor-logo {
   border-radius: inherit;
   height: 300px;
-  width: 300px;
 }
-#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .contact-info-wrap {
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap #napoli-sponsor-logo {
+  border-radius: inherit;
+  height: 300px;
+}
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap .contact-info-wrap {
   display: flex;
   justify-content: space-around;
   border-radius: inherit;
   align-items: center;
   gap: 5px;
 }
-#sponsorPage-wrap #sponsors-wrap .single-sponsor-wrap .contact-info-wrap .contact-info-single-logo img {
+#sponsorPage-wrap .sponsors-wrap .single-sponsor-wrap .contact-info-wrap .contact-info-single-logo img {
   border-radius: inherit;
   height: 50px;
   width: 50px;

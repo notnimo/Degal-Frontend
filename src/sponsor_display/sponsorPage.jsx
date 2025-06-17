@@ -10,7 +10,8 @@ import web_icon from "./contact_icon/web_icon.png";
 import linkedin_icon from "./contact_icon/linkedin_icon.png";
 import macron_logo from "./sponsor_logo/macron_logo.png";
 import cosmo3d_logo from "./sponsor_logo/cosmo3d_logo.png";
-import infDelBorgo from "./sponsor_logo/infDelBorgo_logo.png";
+import zerbini_logo from "./sponsor_logo/zerbini_logo.png";
+import napoli_logo from "./sponsor_logo/napoli_logo.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,7 +20,7 @@ export default function SponsorDisplay() {
 		<div id="sponsorPage-wrap">
 			<div className="space"></div>
 			<h1 id="sponsorPage-header">OUR SPONSORS</h1>
-			<div id="sponsors-wrap">
+			<div className="sponsors-wrap">
 				<div className="single-sponsor-wrap">
 					<div>
 						<a href="https://www.macron.com">
@@ -99,6 +100,58 @@ export default function SponsorDisplay() {
 								<img
 									src={facebook_icon}
 									alt="facebook cosmo3d info"
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="sponsors-wrap">
+				<div className="single-sponsor-wrap">
+					<div>
+						<a href="https://zerbinimodelli.com/">
+							<img
+								id="zerbini-sponsor-logo"
+								src={zerbini_logo}
+								alt="zerbini logo"
+							/>
+						</a>
+					</div>
+					<div className="contact-info-wrap">
+						<div className="contact-info-single-logo">
+							<a href="https://in.linkedin.com/company/zerbini-modelli-s.r.l.">
+								<img
+									src={linkedin_icon}
+									alt="zerbini linkedin logo"
+								/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div className="single-sponsor-wrap">
+					<div>
+						<a href="http://www.dii.unina.it/">
+							<img
+								id="napoli-sponsor-logo"
+								src={napoli_logo}
+								alt="napoli logo"
+							/>
+						</a>
+					</div>
+					<div className="contact-info-wrap">
+						<div className="contact-info-single-logo">
+							<a href="https://www.facebook.com/DII.unina">
+								<img
+									src={facebook_icon}
+									alt="napoli facebook logo"
+								/>
+							</a>
+						</div>
+						<div className="contact-info-single-logo">
+							<a href="https://www.instagram.com/ingegneria.industriale.unina/">
+								<img
+									src={instagram_icon}
+									alt="napoli instagram logo"
 								/>
 							</a>
 						</div>
