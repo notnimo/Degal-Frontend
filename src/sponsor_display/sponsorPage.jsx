@@ -104,38 +104,6 @@ export default function SponsorDisplay() {
 						</div>
 					</div>
 				</div>
-				{/*<div className="single-sponsor-wrap">
-					<div>
-						<img
-							id="infDelBorgo-sponsor-logo"
-							src={infDelBorgo}
-							alt="infDelBorgo logo"
-						/>
-					</div>
-					<div
-						className="contact-info-wrap"
-						style={{ width: "105px" }}
-					>
-						<div className="contact-info-single-logo">
-							<a href="https://www.facebook.com/p/Infermieri-nel-Borgo-100057531005763">
-								<img
-									className="contact-info-single-logo"
-									src={facebook_icon}
-									alt="facebook infDelBorgo info"
-								/>
-							</a>
-						</div>
-						<div className="contact-info-single-logo">
-							<a href="https://it.linkedin.com/in/infermieri-nel-borgo-studio-associato-a38468156">
-								<img
-									className="contact-info-single-logo"
-									src={linkedin_icon}
-									alt="linkedin infDelBorgo info"
-								/>
-							</a>
-						</div>
-					</div>
-				</div>*/}
 			</div>
 			<div className="space"></div>
 		</div>
